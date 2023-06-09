@@ -51,7 +51,14 @@ exports.default = {
 
 NB: At example above you can see default values of options
 
+# Start
+
 After that, service could be started by:
 ``` bash
 npm start
+```
+
+If you need to generate JWT token with TTL for 3 year, you can use following command:
+``` bash
+npm run jwt
 ```
